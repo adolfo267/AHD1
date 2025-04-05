@@ -4,7 +4,7 @@ body{
   background-color: rgb(235, 235, 235);
   margin: 0;
   }
-  
+
 main{
   display: flex;
   flex-wrap: wrap;
@@ -30,7 +30,7 @@ button{
   cursor: pointer;
 }
 
-.modal{
+.modal, .IndiceMasaCorporal, .Calculadora{
   display: none;
   position: fixed;
   top: 50%;
@@ -43,21 +43,32 @@ button{
   max-width: 90%;
 }
 
+
 .activarModal{
   display: block;
 }
 
-.cerrar{
+.activarImc{
+  display: block;
+}
+
+.activarCal{
+  display: block;
+}
+
+.cerrar, .cerrarImc{
   background-color: red;
   color: white;
   padding: 10px 20px;
 }
 
-.verificar{
+
+.calcular, .verificar, .calcular_datos{
+  background-color: yellowgreen;
   color: white;
-  background-color: green;
-  margin-left: 10px;
+  padding:  10px 20px;
 }
+
 
 .respuesta{
   padding: 5px;
