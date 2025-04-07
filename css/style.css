@@ -30,7 +30,7 @@ button{
   cursor: pointer;
 }
 
-.modal, .IndiceMasaCorporal, .Calculadora{
+.modal{
   display: none;
   position: fixed;
   top: 50%;
@@ -48,23 +48,16 @@ button{
   display: block;
 }
 
-.activarImc{
-  display: block;
-}
 
-.activarCal{
-  display: block;
-}
-
-.cerrar, .cerrarImc{
+.cerrar{
   background-color: red;
   color: white;
   padding: 10px 20px;
 }
 
 
-.calcular, .verificar, .calcular_datos{
-  background-color: yellowgreen;
+.verificar{
+  background-color:green;
   color: white;
   padding:  10px 20px;
 }
